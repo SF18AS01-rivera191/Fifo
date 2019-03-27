@@ -125,7 +125,7 @@ extension MyStack {   //to make it easy to display the MyStack in a UITableView
 
 
 //Version 4: a generic struct.
-
+/*
 struct MyStack<Element> {
     var items: [Element] = [Element]();
     
@@ -158,7 +158,7 @@ extension MyStack {   //to make it easy to display the MyStack in a UITableView
         return items[i];
     }
 }
-
+*/
 struct MyQueueOfStrings<Element> {
     var items: [Element] = [Element]();
     
